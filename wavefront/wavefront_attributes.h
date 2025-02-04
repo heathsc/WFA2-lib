@@ -135,6 +135,6 @@ typedef struct {
 /*
  * Default parameters
  */
-extern wavefront_aligner_attr_t wavefront_aligner_attr_default;
+extern const wavefront_aligner_attr_t wavefront_aligner_attr_default;
 
 #endif /* WAVEFRONT_ATTRIBUTES_H_ */

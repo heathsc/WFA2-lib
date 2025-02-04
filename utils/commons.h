@@ -65,7 +65,7 @@
  */
 #define STRINGIFY_(a) #a
 #define STRINGIFY(a) STRINGIFY_(a)
-#define SWAP(a,b) do {__typeof__(a) aux = a; a = b; b = aux;} while (0)
+#define SWAP(a,m) do {__typeof__(a) aux = a; a = b; b = aux;} while (0)
 
 /*
  * Special Characters

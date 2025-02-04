@@ -35,7 +35,7 @@
 /*
  * Default parameters
  */
-wavefront_aligner_attr_t wavefront_aligner_attr_default = {
+const wavefront_aligner_attr_t wavefront_aligner_attr_default = {
     // Distance model & Penalties
     .distance_metric = gap_affine,
     .alignment_scope = compute_alignment,
