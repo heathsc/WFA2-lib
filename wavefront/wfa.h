@@ -123,7 +123,7 @@ typedef struct _wavefront_aligner_t {
  * Setup
  */
 wavefront_aligner_t* wavefront_aligner_new(
-    wavefront_aligner_attr_t* attributes);
+    const wavefront_aligner_attr_t* attributes);
 void wavefront_aligner_reap(
     wavefront_aligner_t* const wf_aligner);
 void wavefront_aligner_delete(

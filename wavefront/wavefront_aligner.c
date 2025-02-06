@@ -419,7 +419,7 @@ void wavefront_aligner_init(
  * Setup
  */
 wavefront_aligner_t* wavefront_aligner_new(
-    wavefront_aligner_attr_t* attributes) {
+    const wavefront_aligner_attr_t* attributes) {
   // Parameters
   if (attributes == NULL) attributes = &wavefront_aligner_attr_default;
   const bool score_only = (attributes->alignment_scope == compute_score);
